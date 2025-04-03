@@ -1,11 +1,14 @@
 body {
     background-color: rgb(116, 132, 86);
   }
-  h1 {
+  h1,
+  h2 {
     color: rgb(117, 85, 70);
+    font-family:fantasy;
   }
   p {
     color: rgb(117, 85, 70);
     border: 30px rgb(117, 85, 70);
-    margin: 50px
+    padding: 50px
+
   }
