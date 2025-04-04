@@ -1,8 +1,5 @@
 body {
-    background-image: 'resources/index/IMG_3577.JPG';
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-size: cover;
+    background-color: rgb(116, 132, 86);
   }
   h1,
   h2,
