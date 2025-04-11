@@ -14,30 +14,28 @@ body {
     color: rgb(23, 70, 35);
     font-family:precious;
     text-align: left;
-    font-size: 300%;
+    font-size: 4vw;
   }
 p {
     color: rgb(23, 70, 35);
-    text-align: left;
+
+    text-align:left;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin:25px;
   }
-#myheader {
-  color: rgb(23, 70, 35);
-  font-family:fantasy;
-  text-align: left;
-}
 
 ul {
     list-style-type: none;
     margin: 15px;
     padding: 5px;
-    overflow: hidden;
+    overflow:hidden;
     background-color: rgb(23, 70, 35);
-    position:relative;
+    position:sticky;
+    position:-webkit-sticky;
+    top:0px;
 }
 li {
-  float:inline-start;
+  float:left;
 }
 li a {
     display:block;
@@ -51,7 +49,9 @@ li a {
 li a:hover {
     background-color: rgb(59, 49, 64);
   }
-
+.active {
+  background-color:rgb(116, 132, 86);
+}
 .imgcontainer {
   display:-ms-inline-grid;
   grid-auto-rows: 450px;
