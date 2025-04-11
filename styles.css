@@ -51,20 +51,17 @@ li a {
 li a:hover {
     background-color: rgb(59, 49, 64);
   }
-  img {
-    display:block;
-    margin:auto;
-    float:inline-end;
-  }
-.topography {
-  display:block;
-  margin:auto;
-  float:auto;
+
+.imgcontainer {
+  display:-ms-inline-grid;
+  grid-auto-rows: 450px;
   max-width: 100%;
-  height: auto;
+  height:auto;
+
 }
-.grid {
-  display:grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 60%;
+.imgcontainer > div {
+  align-content:center;
+  margin:auto;
+  padding: 10px;
+  float:inline-start;
 }
