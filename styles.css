@@ -11,15 +11,23 @@ body {
     font-family:fantasy;
     text-align: left;
   }
+
+#header {
+  color: rgb(23, 70, 35);
+  font-family:fantasy;
+  text-align: left;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(23, 70, 35)
+    background-color: rgb(23, 70, 35);
+    position:relative;
 }
 li {
-    float:left;
+  float:inline-start;
 }
 li a {
     display:block;
@@ -42,3 +50,15 @@ li a:hover {
     margin:auto;
     float:inline-end;
   }
+.topography {
+  display:block;
+  margin:auto;
+  float:auto;
+  max-width: 100%;
+  height: auto;
+}
+.grid {
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 60%;
+}
