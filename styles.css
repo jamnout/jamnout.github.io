@@ -16,11 +16,23 @@ body {
     text-align: left;
     font-size: 4vw;
   }
+
+.indexbackground {
+  background-image: url(resources/index/100_0285.JPG);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  background-blend-mode:luminosity;
+  @media only screen and (min-width: 600px) { 
+        background-image: url(resources/index/IMG_2115.jpeg);
+    }
+  }
 p {
     color: rgb(23, 70, 35);
     text-align:left;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin:25px;
+    overflow:hidden;
   }
 
 ul {
@@ -34,7 +46,7 @@ ul {
     top:0px;
 }
 li {
-  float:left;
+  float:right;
 }
 li a {
     display:block;
@@ -43,7 +55,7 @@ li a {
     text-align: center;
     text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 90%
+    font-size: 90%;
 }
 li a:hover {
     background-color: rgb(59, 49, 64);
@@ -56,11 +68,14 @@ li a:hover {
   grid-auto-rows: 450px;
   max-width: 100%;
   height:auto;
-
 }
 .imgcontainer > div {
   align-content:center;
   margin:auto;
   padding: 10px;
   float:inline-start;
+}
+.imgcontainer > div > img {
+    width: 450px;
+    height: 300px;
 }
