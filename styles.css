@@ -66,19 +66,19 @@ li a:hover {
 .active {
   background-color:rgb(116, 132, 86);
 }
-.imgcontainer {
+.gallery {
   display:-ms-inline-grid;
   grid-auto-rows: 450px;
   max-width: 100%;
   height:auto;
 }
-.imgcontainer > div {
-  align-content:center;
+.gallery > div {
+  justify-content: space-evenly;
   margin:auto;
-  padding: 10px;
   float:inline-start;
 }
-.imgcontainer > div > img {
+.gallery img {
     width: 450px;
     height: 300px;
+    padding: 10px;
 }

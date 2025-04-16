@@ -14,7 +14,7 @@
             </ul>
 
         <p>the site of my first endeavor--a digitized <em>top</em>ography--to show the days pass thru my eyes</p>        
-        <div class="imgcontainer">
+<!--        <div class="gallery">
             <div><img src="resources/topography/100_0457.JPG"></div>
             <div><img src="resources/topography/100_0460.JPG"></div>
             <div><img src="resources/topography/100_0462.JPG"></div>
@@ -25,6 +25,29 @@
             <div><img src="resources/topography/100_0460.JPG"></div>
             <div><img src="resources/topography/100_0462.JPG"></div>
         </div>
+    -->
+        <div class="gallery" id="imgcontainer"></div>
+        <script>
+            const imageNames = [
+                '100_0457.JPG',
+                '100_0460.JPG',
+                '100_0462.JPG',
+                '100_0457.JPG',
+                '100_0460.JPG',
+                '100_0462.JPG',
+               '100_0457.JPG',
+                '100_0460.JPG',
+                '100_0462.JPG'
+            ];
+
+            const gallery = document.getElementById('imgcontainer');
+            imageNames.forEach(name => {
+                const img = document.createElement('img');
+                img.src = `resources/topography/${name}`;
+                img.alt = name;
+                gallery.appendChild(img);
+            });
+        </script>
 
 
     </body>
